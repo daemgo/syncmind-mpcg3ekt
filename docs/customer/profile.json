@@ -1,0 +1,130 @@
+{
+  "companyName": "武汉云岭光电股份有限公司",
+  "shortName": "云岭光电",
+  "summary": "云岭光电由国际领先芯片专家团队与华工科技于2018年1月共同发起设立，承载近20年技术探索与市场实践，专注于中高端光通信半导体光芯片产品，是拥有完全自主知识产权、具备全流程生产能力的IDM光芯片企业。公司主营10G/25G/50G全系列激光器和探测器芯片及封装类产品，具备年产芯片7500万颗、TO 7200万只的生产能力，位居国内行业前列。2024年认定为国家专精特新重点\"小巨人\"企业，2025年10月登陆新三板，市值超100亿元。",
+  "industry": "半导体/光通信",
+  "subIndustry": "光通信芯片（激光器/探测器）",
+  "scale": "中型企业",
+  "mainBusiness": "光通信芯片及封装产品的研发、生产与销售，核心产品为2.5G/10G/25G/50G全系列激光器（LD）和探测器（PD）芯片及封装类产品",
+  "products": [
+    { "name": "10G/25G/50G激光器芯片", "description": "DFB/EML激光器芯片，应用于5G前传、数据中心400G/800G光模块" },
+    { "name": "探测器芯片", "description": "PIN型探测器芯片，10G/25G全系列" },
+    { "name": "TO-CAN封装产品", "description": "年产7200万只，具备完整chip及TO研制生产平台" },
+    { "name": "56G Baud EML", "description": "应用于400G/800G光模块，2024年开始小批量生产" },
+    { "name": "100mW硅光激光器", "description": "已通过客户验证，112G Baud EML芯片样品已进入功能测试" }
+  ],
+  "targetCustomers": ["华工正源", "天孚通信", "海信宽带", "大连藏龙", "剑桥科技", "联特科技", "四川九州", "华为", "中兴"],
+  "businessModel": "IDM模式（设计、制造、封装、测试垂直整合），产品直销给光器件/光模块厂商",
+  "rating": "国内光通信芯片第一梯队，国家专精特新重点\"小巨人\"企业",
+  "tags": ["光通信芯片", "半导体激光器", "探测器", "IDM", "专精特新", "5G", "数据中心", "国产替代", "华工科技关联", "国家专精特新小巨人", "高新技术企业", "瞪羚企业", "独角兽"],
+  "website": "http://www.eliteoptronics.com/",
+  "slogan": "致力于成为世界一流的光芯片企业",
+  "isListed": true,
+  "stockCode": "874775",
+  "revenueScale": "2025年前三季度营收1.94亿元",
+  "registration": {
+    "registeredName": "武汉云岭光电股份有限公司",
+    "registeredCapital": "31824.62万元",
+    "paidCapital": "30825.11万元",
+    "establishedDate": "2018-01-24",
+    "legalRepresentative": "熊文",
+    "businessStatus": "开业",
+    "shareholders": [
+      { "name": "武汉峰创为源科技合伙企业（有限合伙）", "share": "21.74%" },
+      { "name": "武汉华工科技投资管理有限公司", "share": "14.09%" },
+      { "name": "湖北省融合发展产业投资基金", "share": "3.30%" },
+      { "name": "深圳市盈瑞达宸科技合伙企业", "share": "3.24%" }
+    ],
+    "branchCount": 2,
+    "interpretation": "公司由华工科技与创始团队共同设立，股权结构相对分散，无控股股东。创始团队持股平台峰创为源为第一大股东，华工科技通过全资子公司持有14.09%为第二大股东。",
+    "organizationType": "民营企业（非上市股份公司）",
+    "keyFindings": [
+      "2025年10月13日新三板挂牌，证券代码874775",
+      "已启动北交所上市辅导，计划从基础层转入创新层",
+      "2024年市值约104亿元，属\"小巨人\"企业",
+      "参保人数333人，实际员工约443人",
+      "与华工科技（000988.SZ）关系密切，董事长熊文兼任华工科技副总经理"
+    ]
+  },
+  "organization": {
+    "type": "民营企业，IDM全流程垂直整合",
+    "decisionChain": "董事会领导下的总经理负责制，董事长熊文兼任华工科技副总经理，决策链条清晰但存在母公司影响",
+    "keyPersons": [
+      { "name": "熊文", "title": "董事长" },
+      { "name": "龙浩", "title": "总经理" },
+      { "name": "刘立刚", "title": "副总经理/核心技术人员" },
+      { "name": "Bin Liu", "title": "副总经理" },
+      { "name": "Henghua Deng", "title": "副总经理/首席技术官" }
+    ],
+    "salesStrategy": "直销模式，聚焦光模块厂商客户，通过产品可靠性验证进入主流供应链"
+  },
+  "timing": {
+    "phase": "成长期后期至成熟期过渡阶段",
+    "analysisBasis": [
+      "2018年成立，6年发展已具备规模化生产能力",
+      "2024年认定为国家专精特新重点\"小巨人\"",
+      "2025年新三板挂牌，启动北交所上市辅导",
+      "2025年前三季度营收1.94亿元，同比增长78.17%"
+    ],
+    "entryStrategy": "标准化产品销售+战略客户深度绑定，产能扩张期适合MES/QMS/设备管理系统导入",
+    "urgency": "中等，企业正筹备上市，规范化管理需求提升数字化窗口期"
+  },
+  "hiring": {
+    "keySignals": [
+      "硕士学历研发岗月薪10000元起，14-16薪，具有竞争力薪酬",
+      "招聘岗位：研发助理工程师、工艺助理工程师、品质助理工程师",
+      "专业要求：光学、微电子、物理、材料等相关专业",
+      "半导体制作流程、光电芯片相关岗位需求"
+    ]
+  },
+  "competition": {
+    "industryRank": "国内光通信芯片第一梯队，专精特新重点\"小巨人\"",
+    "marketShare": "25G高速率光芯片国产化首批量产，国内唯一通过国际通讯巨头可靠性测试的企业",
+    "mainCompetitors": [
+      { "name": "源杰科技", "description": "国内唯一量产25G+高速DFB芯片，100G EML国内领先" },
+      { "name": "仕佳光子", "description": "无源芯片全球龙头（PLC分路器>50%市占率），有源芯片逐步追赶" },
+      { "name": "长光华芯", "description": "高功率+高速光通信双平台，半导体激光芯片+光通信芯片" },
+      { "name": "永鼎股份", "description": "25G DFB成熟量产，100G EML在推进，自给自用为主" }
+    ],
+    "knownClients": ["华工正源", "天孚通信", "海信宽带", "大连藏龙", "剑桥科技", "联特科技", "四川九州", "华为", "中兴"]
+  },
+  "riskAndPolicy": {
+    "legal": {
+      "lawsuitCount": 9,
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false
+    },
+    "policy": {
+      "isSpecializedSME": true,
+      "smeLevel": "国家级专精特新\"小巨人\"",
+      "isHighTech": true,
+      "digitalTransformation": false,
+      "esgGreen": false
+    }
+  },
+  "painPoints": [
+    { "area": "研发管理", "description": "芯片设计周期长、版本管理复杂、多项目并行研发（DFB/EML/硅光激光器同步推进），需要PLM系统支撑协同设计", "severity": "高" },
+    { "area": "生产管理", "description": "IDM全流程工序多（外延、晶圆制造、封装、测试），排产复杂、设备利用率优化空间大，需要MES+APS系统", "severity": "高" },
+    { "area": "质量管理", "description": "光芯片对可靠性要求极高（通过国际巨头测试），需建立完善QMS系统支撑SPC、良率分析、批次追溯", "severity": "高" },
+    { "area": "设备管理", "description": "精密半导体设备（MOCVD等）维护成本高，设备点检、预测性维护需求强烈，OEE提升空间大", "severity": "中" },
+    { "area": "供应链管理", "description": "高端外延片等原材料依赖进口，供应链风险管控、库存备货策略需优化", "severity": "中" }
+  ],
+  "opportunities": [
+    { "area": "MES系统", "description": "半导体制造执行系统，支撑IDM全流程工序管理、设备联网、数据采集", "likelihood": "高" },
+    { "area": "QMS质量管理系统", "description": "质量追溯、SPC统计过程控制、良率分析、客户稽核文档管理", "likelihood": "高" },
+    { "area": "APS智能排产", "description": "半导体晶圆制造复杂排程优化，提升设备利用率，减少在制品库存", "likelihood": "中" },
+    { "area": "设备预测性维护", "description": "MOCVD等精密设备IoT监控、预测性维护，降低非计划停机", "likelihood": "中" }
+  ],
+  "analysisPath": "B+",
+  "confidence": 0.85,
+  "metadata": {
+    "createdAt": "2026-05-19",
+    "updatedAt": "2026-05-19",
+    "createdBy": "AI",
+    "version": "1.0",
+    "sources": ["官网", "工商信息", "新三板公告", "招聘平台", "行业报道"],
+    "confidence": 0.85
+  }
+}
