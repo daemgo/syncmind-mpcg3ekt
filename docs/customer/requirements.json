@@ -1,0 +1,318 @@
+{
+  "currentVersion": "v0.1",
+  "status": "draft",
+  "versions": [],
+  "current": {
+    "salesInput": {
+      "salesPerson": "",
+      "lastUpdated": "2026-05-19",
+      "overallAssessment": {
+        "customerIntent": "客户想了解专属钉钉和Teambition项目管理，计划向云岭光电介绍这两个产品",
+        "projectUrgency": "中等，企业正筹备上市，规范化管理需求提升",
+        "budgetSituation": "未知",
+        "competitionStatus": "未知是否有其他厂商接触",
+        "winProbability": "待评估",
+        "keyObstacles": ["客户已有内部沟通工具习惯", "需要展示与现有工具的差异化价值", "需了解客户真实痛点"],
+        "confidenceLevel": "低"
+      },
+      "keyPersons": [
+        { "name": "熊文", "title": "董事长" },
+        { "name": "龙浩", "title": "总经理" }
+      ],
+      "realNeeds": {
+        "explicitNeeds": ["统一内部沟通协作平台", "研发项目管理工具"],
+        "implicitNeeds": ["提升研发项目可视化", "规范团队协作流程", "支撑多项目并行管理"],
+        "suspectedNeeds": ["与MES/QMS等生产系统打通", "数据安全合规（上市公司要求）"]
+      },
+      "decisionFactors": {
+        "primaryFactor": "产品稳定性和行业口碑",
+        "secondaryFactors": ["与现有系统集成能力", "数据安全合规", "实施服务能力"],
+        "dealBreakers": []
+      },
+      "notes": "基于客户档案推演的需求框架，需通过拜访确认",
+      "concerns": [],
+      "suggestions": ["从研发项目管理和内部协同切入，展示Teambition和专属钉钉的协同价值"]
+    },
+    "sources": {
+      "meetings": [],
+      "documents": [],
+      "communications": [],
+      "observations": []
+    },
+    "needs": [
+      {
+        "id": "REQ-001",
+        "category": "business",
+        "title": "研发项目全流程可视化",
+        "description": "DFB/EML/硅光激光器等多项目并行研发，需统一的任务分解、进度跟踪和交付管理",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案显示客户多项目并行研发，profile.painPoints研发管理痛点", "raw": null },
+        "status": "active",
+        "module": "项目管理",
+        "relatedPainPoints": ["研发管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-002",
+        "category": "business",
+        "title": "跨部门协作流程规范",
+        "description": "IDM全流程涉及研发、生产、品质、供应链多部门，需统一的协作平台和流程管控",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "客户IDM模式涉及多部门协作", "raw": null },
+        "status": "active",
+        "module": "协同办公",
+        "relatedPainPoints": ["生产管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-003",
+        "category": "functional",
+        "title": "任务分配与进度跟踪",
+        "description": "支持研发任务分解到个人，进度自动更新，延期预警",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案显示多项目并行研发，需要任务管理", "raw": null },
+        "status": "active",
+        "module": "Teambition",
+        "relatedPainPoints": ["研发管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-004",
+        "category": "functional",
+        "title": "文档协同与版本管理",
+        "description": "研发文档统一存储、版本追溯、多人在线编辑",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "芯片研发需要文档管理能力", "raw": null },
+        "status": "active",
+        "module": "Teambition",
+        "relatedPainPoints": ["研发管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-005",
+        "category": "functional",
+        "title": "移动端随时随地办公",
+        "description": "员工通过手机端处理审批、查看项目进度、接收通知",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "industry-pattern", "detail": "制造业企业普遍需要移动办公能力", "raw": null },
+        "status": "active",
+        "module": "专属钉钉",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-006",
+        "category": "functional",
+        "title": "统一的企业内部沟通",
+        "description": "替代分散的微信/QQ群，建立企业级即时通讯和群组管理",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "customer-stated", "detail": "用户提供目标产品专属钉钉，解决内部沟通问题", "raw": null },
+        "status": "active",
+        "module": "专属钉钉",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-007",
+        "category": "functional",
+        "title": "审批流程电子化",
+        "description": "合同审批、请假出差、采购等流程在线完成，自动归档",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "筹备上市企业需要流程规范化", "raw": null },
+        "status": "active",
+        "module": "专属钉钉",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-008",
+        "category": "technical",
+        "title": "数据安全与私有化部署",
+        "description": "上市公司对数据安全要求高，需支持专属钉钉私有化部署方案",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "客户新三板挂牌，筹备北交所上市，有合规要求", "raw": null },
+        "status": "active",
+        "module": "专属钉钉",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-009",
+        "category": "integration",
+        "title": "与MES/QMS系统集成",
+        "description": "Teambition项目进度与生产系统数据联动（远期需求）",
+        "priority": "could",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "客户有MES/QMS需求，可与项目管理联动", "raw": null },
+        "status": "active",
+        "module": "系统集成",
+        "relatedPainPoints": ["生产管理", "质量管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-010",
+        "category": "non-functional",
+        "title": "实施周期与上线要求",
+        "description": "客户期望合理周期内完成上线，快速见效",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "industry-pattern", "detail": "制造业企业普遍期望快速交付", "raw": null },
+        "status": "active",
+        "module": "项目管理",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      }
+    ],
+    "users": [
+      { "role": "研发人员", "description": "约100-150人，负责芯片设计、测试任务", "mainTasks": ["任务领取与反馈", "项目进度更新", "文档协作"] },
+      { "role": "项目经理", "description": "研发项目经理，负责多项目统筹", "mainTasks": ["项目计划制定", "进度跟踪", "资源协调"] },
+      { "role": "生产管理人员", "description": "工艺、品质等生产相关人员", "mainTasks": ["任务接收", "进度反馈", "跨部门协作"] },
+      { "role": "中高层管理者", "description": "总经理、副总经理等", "mainTasks": ["项目总览", "决策审批", "数据报表"] }
+    ],
+    "scope": {
+      "inScope": ["Teambition项目管理（研发项目为主）", "专属钉钉基础功能（沟通、审批、群组）", "移动端应用", "基础培训"],
+      "outOfScope": ["MES/QMS系统集成（当前阶段）", "深度定制开发", "硬件设备对接"],
+      "futureScope": ["与生产系统数据联动", "更多业务系统集成", "数据分析报表深化"],
+      "phases": [
+        { "phase": "第一期", "scope": "专属钉钉基础部署 + Teambition核心功能", "duration": "1-2个月" },
+        { "phase": "第二期", "scope": "流程深化 + 与现有系统初步对接", "duration": "1-2个月" }
+      ],
+      "priorityMatrix": [
+        { "dimension1": "价值", "dimension2": "紧迫度", "items": "高价值高紧迫→立即推进，高价值低紧迫→规划进二期" }
+      ]
+    },
+    "constraints": {
+      "budget": { "total": "", "flexibility": "未知" },
+      "timeline": { "expectedStart": "", "expectedGoLive": "" }
+    },
+    "successCriteria": {
+      "operational": ["研发项目任务在线化管理比例>80%", "跨部门协作流程线上化"],
+      "business": ["管理层可实时查看项目进度", "减少无效会议和沟通成本"]
+    },
+    "solutionDirection": {
+      "overallApproach": "以Teambition为核心解决研发项目可视化管理，以专属钉钉为统一办公入口，先试点后推广",
+      "recommendedApproach": null,
+      "technicalDirection": "SaaS版本为主，评估私有化需求",
+      "implementationStrategy": "先研发团队试点，验证后推广至全公司",
+      "nextSteps": ["拜访客户，了解现有工具和痛点", "现场演示Teambition核心功能", "提供轻量化解决方案建议"]
+    },
+    "pendingQuestions": [
+      {
+        "id": "PQ-001",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "目前研发项目是怎么管理的？用Excel、Project还是其他工具？",
+        "purpose": "了解客户当前项目管理现状，判断切入难度",
+        "expectedDirection": "了解是否有现成系统",
+        "targetPerson": "研发负责人/项目经理",
+        "relatedNeedIds": ["REQ-001", "REQ-003"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-002",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "内部沟通现在主要用什么？微信群还是其他工具？有哪些痛点？",
+        "purpose": "了解沟通协作现状，挖掘钉钉切入机会",
+        "expectedDirection": "了解沟通痛点",
+        "targetPerson": "IT负责人/行政",
+        "relatedNeedIds": ["REQ-006"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-003",
+        "category": "预算",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "今年在数字化工具上的预算大概是什么量级？",
+        "purpose": "评估客户购买力和预算空间",
+        "expectedDirection": "了解预算范围",
+        "targetPerson": "总经理/CIO",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-004",
+        "category": "时间",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "希望什么时候能看到初步效果？有没有关键时间节点？",
+        "purpose": "判断紧迫度和实施节奏",
+        "expectedDirection": "了解时间期望",
+        "targetPerson": "总经理",
+        "relatedNeedIds": ["REQ-010"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-005",
+        "category": "技术",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "对数据安全有什么特殊要求？是否需要私有化部署？",
+        "purpose": "确认专属钉钉部署方案",
+        "expectedDirection": "SaaS或私有化",
+        "targetPerson": "IT负责人",
+        "relatedNeedIds": ["REQ-008"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      }
+    ],
+    "risksAndAssumptions": {
+      "risks": [
+        { "description": "客户可能已有类似工具习惯，改变成本高", "impact": "中", "mitigation": "展示增量价值，强调迁移便捷性" },
+        { "description": "上市公司数据安全要求高，SaaS版本可能不满足", "impact": "中", "mitigation": "提前了解需求，提供合规方案" },
+        { "description": "多部门协作推进难度大，业务部门配合度不确定", "impact": "高", "mitigation": "争取高层支持，先试点后推广" }
+      ],
+      "assumptions": [
+        { "description": "客户有统一沟通平台的需求", "impact": "中" },
+        { "description": "研发项目可视化是真实痛点", "impact": "中" },
+        { "description": "客户愿意为规范化管理投入资源", "impact": "低" }
+      ],
+      "dependencies": ["客户IT部门配合度", "高层支持力度", "与现有系统集成需求明确性"]
+    },
+    "completionRate": {
+      "overall": 25,
+      "byCategory": { "business": 40, "functional": 30, "technical": 20, "integration": 10 },
+      "blockers": ["客户当前项目管理现状未知", "预算范围未知", "关键决策人确认"]
+    }
+  }
+}

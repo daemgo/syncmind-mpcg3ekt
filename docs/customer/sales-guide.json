@@ -1,0 +1,114 @@
+{
+  "salesGuide": {
+    "timing": {
+      "timingStage": "成长期后期，筹备上市规范化阶段",
+      "entryStrategy": "从研发项目可视化和内部协同效率切入，以Teambition+专属钉钉轻量化方案满足规范化管理需求，结合上市合规背景强调数据安全价值",
+      "urgency": "中"
+    },
+    "stageAdvice": {
+      "focus": "先验证项目管理现状和沟通痛点，展示Teambition对研发团队的增量价值",
+      "approach": "以研发项目经理和IT负责人为首要接触对象，通过现场演示+轻量化方案吸引，争取总经理层面的支持决策",
+      "risks": "过早接触高层可能导致期望过高，而底层需求验证不足；避免一次性推完整套方案，先聚焦1-2个核心场景"
+    },
+    "competitors": [
+      {
+        "name": "企业微信",
+        "threat": "中",
+        "strengths": ["免费使用，中小企业接受度高", "与微信生态打通，员工学习成本低", "基础的审批和协作功能"],
+        "weaknesses": ["项目管理能力弱，无专业敏捷/看板工具", "定制化能力有限，不支持私有化部署", "数据安全合规能力不足，上市公司场景受限"],
+        "counterStrategy": "强调Teambition在研发项目管理的专业能力，以及专属钉钉支持私有化部署满足上市合规要求"
+      },
+      {
+        "name": "飞书",
+        "threat": "中",
+        "strengths": ["OKR+项目管理的完整套件", "字节跳动背书，科技企业接受度高", "文档协作能力突出"],
+        "weaknesses": ["本地化服务能力弱，在武汉等二线城市服务响应慢", "实施周期长，配置复杂", "价格相对较高"],
+        "counterStrategy": "强调本地化服务优势和轻量化快速见效的交付模式，以更快落地、更快见效打动客户"
+      },
+      {
+        "name": "现状竞对：Excel/Project + 分散沟通",
+        "threat": "高",
+        "strengths": ["员工已习惯，无迁移成本", "免费，无需采购流程", "灵活度高"],
+        "weaknesses": ["项目进度不透明，管理者无法实时掌控", "版本混乱，文档散落各处", "跨部门协作靠拉群，效率低", "数据难以追溯和汇总"],
+        "counterStrategy": "展示Teambition任务分解+进度可视化的直观效果，以'从混乱到有序'的对比打动客户"
+      }
+    ],
+    "decisionChain": {
+      "decisionMakers": [
+        { "name": "龙浩", "department": "总经理", "reason": "日常经营管理最终负责人，预算审批权" },
+        { "name": "熊文", "department": "董事长", "reason": "战略决策层，兼任华工科技副总经理，对上市规范化有直接影响" }
+      ],
+      "influencers": [
+        { "name": "研发总监/项目经理", "department": "研发部", "reason": "研发项目管理直接用户，对Teambition有直接需求，影响采购决策" },
+        { "name": "IT负责人", "department": "信息技术部", "reason": "技术选型评估、系统集成对接、IT预算执行" },
+        { "name": "行政/综合管理", "department": "综合管理部", "reason": "内部流程规范推动者，审批流程电子化需求方" }
+      ],
+      "blockers": [
+        { "name": "生产管理团队", "department": "生产部", "reason": "可能对协同工具变革有抵触，更关注生产系统，对办公协同优先级低" },
+        { "name": "保守型中层", "department": "各部门", "reason": "习惯现有工作方式，变革意愿不强，可能消极配合" }
+      ]
+    },
+    "avoidTopics": [
+      "华工科技与云岭光电的关联关系可能引发利益输送联想，勿主动提及",
+      "客户筹备北交所上市的财务敏感信息，不要主动询问具体数据",
+      "竞品对比时避免直接贬低，尤其不要提及企业微信的免费优势"
+    ],
+    "interviewGuide": {
+      "fromRequirements": [
+        {
+          "questionId": "PQ-001",
+          "stage": "screening",
+          "question": "目前研发项目是怎么管理的？用Excel、Project还是其他工具？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-002",
+          "stage": "screening",
+          "question": "内部沟通现在主要用什么？微信群还是其他工具？有哪些痛点？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-003",
+          "stage": "screening",
+          "question": "今年在数字化工具上的预算大概是什么量级？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-004",
+          "stage": "screening",
+          "question": "希望什么时候能看到初步效果？有没有关键时间节点？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-005",
+          "stage": "deep-dive",
+          "question": "对数据安全有什么特殊要求？是否需要私有化部署？",
+          "priority": "选问",
+          "status": "pending"
+        }
+      ]
+    },
+    "tracking": {
+      "coverageRate": 0,
+      "coveredCount": 0,
+      "totalCount": 5,
+      "pendingCritical": ["PQ-001", "PQ-002", "PQ-003", "PQ-004"]
+    },
+    "nextActions": [
+      { "action": "预约拜访，先接触研发项目经理和IT负责人，了解当前项目管理现状和痛点", "deadline": "本周", "owner": "销售" },
+      { "action": "准备Teambition研发项目管理场景的演示方案，重点展示任务分解、看板、进度跟踪功能", "deadline": "拜访前", "owner": "售前" },
+      { "action": "准备专属钉钉基础功能演示，特别是审批流和统一沟通能力", "deadline": "拜访前", "owner": "售前" },
+      { "action": "拜访后整理需求验证情况，更新requirements.json和sales-guide.json", "deadline": "拜访后1天内", "owner": "销售" },
+      { "action": "如客户反馈积极，安排总经理层面的汇报演示，熊文或龙浩层面推动决策", "deadline": "二次拜访", "owner": "销售+售前" }
+    ],
+    "metadata": {
+      "generatedAt": "2026-05-19T00:00:00Z",
+      "updatedAt": "2026-05-19T00:00:00Z",
+      "version": "1.0"
+    }
+  }
+}
